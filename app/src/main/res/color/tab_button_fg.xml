@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_btn_checked_fg"
+        android:state_checked="true"
+        android:color="?attr/colorTBCFG"/>
+    <item
+        android:id="@+id/tab_btn_unchecked_fg"
+        android:color="?attr/colorPrimary"/>
+</selector>

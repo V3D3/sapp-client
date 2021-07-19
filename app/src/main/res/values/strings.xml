@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Student\'s App</string>
+    <!--    <string name="data_store">data.json</string>-->
+    <string name="app_data_store">app.json</string>
+    <string name="home_data_store">home.json</string>
+    <string name="events_data_store">events.json</string>
+    <string name="schedule_data_store">schedule.json</string>
+    <string name="mess_data_store">mess.json</string>
+    <string name="instievents_data_store">instievents.json</string>
+    <string name="contacts_data_store">contacts.json</string>
+
+    <string name="login_roll_hint">ROLL NUMBER</string>
+    <string name="login_pass_hint">PASSWORD</string>
+    <string name="login_signin_button">SIGN IN</string>
+    <string name="login_gsignin_button">CONTINUE WITH SMAIL</string>
+    <string name="login_empty_roll">Enter a roll number!</string>
+    <string name="login_empty_password">Enter a password!</string>
+    <string name="login_invalid_roll">Invalid roll number.</string>
+    <string name="login_incorrect_roll">Incorrect roll number.</string>
+    <string name="login_incorrect_pass">Incorrect password.</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="server">192.168.43.130</string>
+    <string name="server_login">http://192.168.43.130/login.php</string>
+    <string name="server_hash">http://192.168.43.130/hashes.php</string>
+    <string name="server_calendar">http://192.168.43.130/calendar.php</string>
+    <string name="server_mess">http://192.168.43.130/mess.php</string>
+    <string name="server_instievents">http://192.168.43.130/instievents.php</string>
+    <string name="server_contacts">http://192.168.43.130/contacts.php</string>
+    <string name="server_search">http://localhost/search.php</string>
+    <string name="server_taskup">http://localhost/taskup.php</string>
+
+    <string name="title_activity_base">Student\'s App</string>
+    <string name="nav_home_label">Home</string>
+    <string name="nav_timetable_label">Schedule</string>
+    <string name="nav_mess_label">Mess Menu</string>
+    <string name="nav_events_label">Events</string>
+    <string name="nav_people_label">Find People</string>
+    <string name="nav_contacts_label">Contacts</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="main_invalid_auth">Authorization error. Logging out.</string>
+
+    <string name="home_greettext">Hey, %1$s!</string>
+    <string name="home_subtext_zero">Welcome to the new interface!\nYou can track your productivity here</string>
+    <string name="home_subtext">Make your day productive\nYou have %1$s task%2$s for today</string>
+    <string name="home_subtext_complete">Well done\nNo tasks left for today</string>
+    <string name="home_overall_progress_help">THIS IS YOUR TASK PROGRESS BAR</string>
+    <string name="home_overall_progress_hint">OVERALL PROGRESS</string>
+    <string name="home_overall_progress_indic">%1$d%%</string>
+    <string name="home_ham_id">ID Card</string>
+    <string name="home_ham_darktheme">Dark Mode</string>
+    <string name="home_ham_logout">Sign Out</string>
+    <string name="home_today">TODAY</string>
+    <string name="home_add_task">ADD TASK</string>
+
+    <string name="contacts_search_hint">Who are you looking for?</string>
+
+    <string name="float_overlay_opacity">0.6</string>
+
+    <string name="defpref_darktheme">false</string>
+    <string name="defpref_loggedin">false</string>
+    <string name="defpref_authcode">0000000000000000</string>
+</resources>

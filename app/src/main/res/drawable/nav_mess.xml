@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_mess_enabled"
+        android:drawable="@drawable/nav_mess_active"
+        android:state_enabled="true" />
+    <item
+        android:id="@+id/nav_mess_disabled"
+        android:drawable="@drawable/nav_mess_inactive" />
+
+    <transition
+        android:drawable="@drawable/nav_mess_enable"
+        android:fromId="@id/nav_mess_disabled"
+        android:toId="@id/nav_mess_enabled" />
+    <transition
+        android:drawable="@drawable/nav_mess_disable"
+        android:fromId="@id/nav_mess_enabled"
+        android:toId="@id/nav_mess_disabled" />
+</animated-selector>

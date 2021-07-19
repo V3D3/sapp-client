@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/nav_home_inactive">
+    <target android:name="inactivebg" android:animation="@animator/nav_enable_bg_ic" />
+    <target android:name="activebg" android:animation="@animator/nav_enable_bg_ac" />
+</animated-vector>

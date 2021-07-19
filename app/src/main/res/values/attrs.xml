@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorTertiary" format="reference" />
+    <attr name="colorPrimaryFaded" format="reference" />
+
+    <attr name="splashAnimSrc" format="reference" />
+
+    <attr name="colorNavbarBG" format="reference" />
+    <attr name="colorNavbarInactiveIcon" format="reference" />
+
+    <attr name="colorFragBG" format="reference" />
+    <attr name="colorFragLabel" format="reference" />
+    <attr name="colorSeperator" format="reference" />
+
+    <attr name="colorSearchBG" format="reference" />
+    <attr name="colorSearchIcon" format="reference" />
+    <attr name="colorSearchHint" format="reference" />
+    <attr name="colorSearchText" format="reference" />
+
+    <attr name="colorHomeSubtext" format="reference" />
+    <attr name="colorHomeProgressText" format="reference" />
+    <attr name="colorHomeDateText" format="reference" />
+    <attr name="colorHomeHamBG" format="reference" />
+    <attr name="colorHomeHamText" format="reference" />
+
+    <attr name="colorCategoryCard" format="reference" />
+    <attr name="colorCategoryCardTaskText" format="reference" />
+
+    <attr name="colorTaskCard" format="reference" />
+    <attr name="colorTaskCompleteText" format="reference" />
+    <attr name="colorTaskIncompleteText" format="reference" />
+    <attr name="colorTaskTimeText" format="reference" />
+    <attr name="taskCardIcon" format="reference" />
+</resources>

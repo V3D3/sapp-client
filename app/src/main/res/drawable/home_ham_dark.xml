@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_ham_open"
+        android:drawable="@drawable/home_ham_dark_enable"
+        android:state_enabled="true"/>
+    <item
+        android:id="@+id/home_ham_close"
+        android:drawable="@drawable/home_ham_dark_disable"/>
+</selector>

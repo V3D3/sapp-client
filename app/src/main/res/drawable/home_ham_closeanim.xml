@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/home_ham_open">
+    <target android:name="p1" android:animation="@animator/home_ham_close_1" />
+    <target android:name="p2" android:animation="@animator/home_ham_close_2" />
+    <target android:name="p3" android:animation="@animator/home_ham_close_3" />
+</animated-vector>

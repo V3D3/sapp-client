@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/nav_events_inactive">
+    <target android:name="inactivebg" android:animation="@animator/nav_disable_bg_ic" />
+    <target android:name="activebg" android:animation="@animator/nav_disable_bg_ac" />
+    <target android:name="suppl0" android:animation="@animator/nav_disable_suppl" />
+    <target android:name="suppl1" android:animation="@animator/nav_disable_suppl" />
+</animated-vector>

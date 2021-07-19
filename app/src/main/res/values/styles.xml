@@ -1,0 +1,109 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryFaded">@color/colorPrimaryFaded</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="background">@color/colorBack</item>
+        <item name="colorSecondary">@color/colorText</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="logo">@drawable/ic_logo_light</item>
+
+        <item name="android:buttonStyle">@style/shadowLessButton</item>
+        <item name="android:fontFamily">@font/khularegular</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="colorTertiary">@color/colorTertiary</item>
+
+        <item name="splashAnimSrc">@raw/splash_anim</item>
+
+        <item name="colorNavbarBG">@color/colorNavbarBG</item>
+        <item name="colorNavbarInactiveIcon">@color/colorNavbarInactiveIcon</item>
+        <item name="colorFragBG">@color/colorMainBG</item>
+        <item name="colorFragLabel">@color/fragLabel</item>
+        <item name="colorSeperator">@color/colorSeperator</item>
+
+        <item name="colorSearchBG">@color/searchBG</item>
+        <item name="colorSearchIcon">@color/searchIcon</item>
+        <item name="colorSearchHint">@color/searchHint</item>
+        <item name="colorSearchText">@color/searchText</item>
+
+        <item name="colorCategoryCard">@color/categoryCard</item>
+        <item name="colorCategoryCardTaskText">@color/categoryCardTaskText</item>
+
+        <item name="colorTaskCard">@color/taskCard</item>
+        <item name="colorTaskCompleteText">@color/taskCompleteText</item>
+        <item name="colorTaskIncompleteText">@color/taskIncompleteText</item>
+        <item name="colorTaskTimeText">@color/taskTimeText</item>
+        <item name="taskCardIcon">@drawable/home_task_icon</item>
+
+        <item name="colorHomeSubtext">@color/homeSubtext</item>
+        <item name="colorHomeProgressText">@color/homeProgressBarText</item>
+        <item name="colorHomeDateText">@color/homeDateText</item>
+        <item name="colorHomeHamBG">@color/homeHamBG</item>
+        <item name="colorHomeHamText">@color/homeHamText</item>
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorTextDark</item>
+        <item name="colorPrimaryFaded">@color/colorPrimaryFadedDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="background">@color/colorBackDark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="logo">@drawable/ic_logo_dark</item>
+
+        <item name="android:buttonStyle">@style/shadowLessButton</item>
+        <item name="android:fontFamily">@font/khularegular</item>
+        <item name="colorControlHighlight">@color/colorControlHighlightDark</item>
+        <item name="colorTertiary">@color/colorTertiaryDark</item>
+
+        <item name="splashAnimSrc">@raw/splash_anim_dark</item>
+
+        <item name="colorNavbarBG">@color/colorNavbarBGDark</item>
+        <item name="colorNavbarInactiveIcon">@color/colorNavbarInactiveIconDark</item>
+        <item name="colorFragBG">@color/colorMainBGDark</item>
+        <item name="colorFragLabel">@color/fragLabelDark</item>
+        <item name="colorSeperator">@color/colorSeperatorDark</item>
+
+        <item name="colorSearchBG">@color/searchBGDark</item>
+        <item name="colorSearchIcon">@color/searchIconDark</item>
+        <item name="colorSearchHint">@color/searchHintDark</item>
+        <item name="colorSearchText">@color/searchTextDark</item>
+
+        <item name="colorCategoryCard">@color/categoryCardDark</item>
+        <item name="colorCategoryCardTaskText">@color/categoryCardTaskTextDark</item>
+
+        <item name="colorTaskCard">@color/taskCardDark</item>
+        <item name="colorTaskCompleteText">@color/taskCompleteTextDark</item>
+        <item name="colorTaskIncompleteText">@color/taskIncompleteTextDark</item>
+        <item name="colorTaskTimeText">@color/taskTimeTextDark</item>
+        <item name="taskCardIcon">@drawable/home_task_icon_dark</item>
+
+        <item name="colorHomeSubtext">@color/homeSubtextDark</item>
+        <item name="colorHomeProgressText">@color/homeProgressBarTextDark</item>
+        <item name="colorHomeDateText">@color/homeDateTextDark</item>
+        <item name="colorHomeHamBG">@color/homeHamBGDark</item>
+        <item name="colorHomeHamText">@color/homeHamTextDark</item>
+    </style>
+
+    <style name="AppTheme.Splash">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="colorPrimaryDark">@color/colorSplash</item>
+        <item name="android:statusBarColor">@color/colorBackDark</item>
+        <item name="android:navigationBarColor">#00000000</item>
+    </style>
+
+    <style name="AppTheme.Splash.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Splash.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.Splash.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="shadowLessButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+</resources>

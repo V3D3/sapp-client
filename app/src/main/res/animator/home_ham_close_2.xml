@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@integer/home_ham_duration"
+        android:propertyName="pathData"
+        android:valueType="pathType"
+        android:valueFrom="M10,12L10,12"
+        android:valueTo="M10,12L25,12"/>
+    <objectAnimator
+        android:duration="@integer/home_ham_duration"
+        android:propertyName="strokeWidth"
+        android:valueFrom="0"
+        android:valueTo="1.5"/>
+</set>

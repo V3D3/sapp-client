@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/home_task_incomplete_dark">
+    <target android:name="tick" android:animation="@animator/home_task_complete_1" />
+    <target android:name="bg" android:animation="@animator/home_task_complete_2_dark" />
+</animated-vector>

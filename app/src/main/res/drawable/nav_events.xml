@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_events_enabled"
+        android:drawable="@drawable/nav_events_active"
+        android:state_enabled="true" />
+    <item
+        android:id="@+id/nav_events_disabled"
+        android:drawable="@drawable/nav_events_inactive" />
+
+    <transition
+        android:drawable="@drawable/nav_events_enable"
+        android:fromId="@id/nav_events_disabled"
+        android:toId="@id/nav_events_enabled" />
+    <transition
+        android:drawable="@drawable/nav_events_disable"
+        android:fromId="@id/nav_events_enabled"
+        android:toId="@id/nav_events_disabled" />
+</animated-selector>

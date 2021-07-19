@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@integer/home_task_complete_duration"
+        android:propertyName="fillColor"
+        android:valueFrom="#F1F3FE"
+        android:valueTo="#E6E6E6"
+        android:valueType="colorType"/>
+    <objectAnimator
+        android:duration="@integer/home_task_complete_duration"
+        android:propertyName="strokeColor"
+        android:valueFrom="#ECE5FF"
+        android:valueTo="#CDCDCD"
+        android:valueType="colorType"/>
+</set>

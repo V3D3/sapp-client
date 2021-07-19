@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background"
+    tools:context=".NavigatorActivity">
+
+    <FrameLayout
+        android:id="@+id/MainView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/nav_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/nav_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:background="?attr/colorNavbarBG"
+        android:elevation="12dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <FrameLayout
+            android:id="@+id/nav_home_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="navSwitch"
+            android:padding="2dp"
+            android:translationY="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/nav_timetable_frame"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/nav_home_img"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="0dp"
+                android:padding="16dp"
+                android:scaleX="0.8"
+                android:scaleY=".8"
+                android:translationY="0dp"
+                app:srcCompat="@drawable/nav_home" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/nav_timetable_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="navSwitch"
+            android:padding="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/nav_mess_frame"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/nav_home_frame"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <ImageView
+                android:id="@+id/nav_timetable_img"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:padding="16dp"
+                android:scaleType="centerCrop"
+                android:scaleX="0.8"
+                android:scaleY=".8"
+                app:srcCompat="@drawable/nav_timetable" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/nav_mess_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="navSwitch"
+            android:padding="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/nav_events_frame"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/nav_timetable_frame"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/nav_mess_img"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:padding="16dp"
+                android:scaleType="centerCrop"
+                android:scaleX="0.8"
+                android:scaleY=".8"
+                app:srcCompat="@drawable/nav_mess" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/nav_events_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="navSwitch"
+            android:padding="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/nav_people_frame"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/nav_mess_frame"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/nav_events_img"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:padding="16dp"
+                android:scaleType="centerCrop"
+                android:scaleX="0.8"
+                android:scaleY=".8"
+                app:srcCompat="@drawable/nav_events" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/nav_people_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="navSwitch"
+            android:padding="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/nav_contacts_frame"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/nav_events_frame"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <ImageView
+                android:id="@+id/nav_people_img"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:padding="16dp"
+                android:scaleType="centerCrop"
+                android:scaleX="0.8"
+                android:scaleY=".8"
+                app:srcCompat="@drawable/nav_people" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/nav_contacts_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="navSwitch"
+            android:padding="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/nav_people_frame"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <ImageView
+                android:id="@+id/nav_contacts_img"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:padding="16dp"
+                android:scaleType="centerCrop"
+                android:scaleX="0.8"
+                android:scaleY=".8"
+                app:srcCompat="@drawable/nav_contacts" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nav_home_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_home_label"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="12sp"
+            android:translationY="-6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/nav_home_frame"
+            app:layout_constraintStart_toStartOf="@+id/nav_home_frame" />
+
+        <TextView
+            android:id="@+id/nav_timetable_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:text="@string/nav_timetable_label"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="12sp"
+            android:translationY="-6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/nav_timetable_frame"
+            app:layout_constraintStart_toStartOf="@+id/nav_timetable_frame" />
+
+        <TextView
+            android:id="@+id/nav_mess_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:text="@string/nav_mess_label"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="12sp"
+            android:translationY="-6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/nav_mess_frame"
+            app:layout_constraintStart_toStartOf="@+id/nav_mess_frame" />
+
+        <TextView
+            android:id="@+id/nav_events_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:text="@string/nav_events_label"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="12sp"
+            android:translationY="-6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/nav_events_frame"
+            app:layout_constraintStart_toStartOf="@+id/nav_events_frame" />
+
+        <TextView
+            android:id="@+id/nav_people_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:text="@string/nav_people_label"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="12sp"
+            android:translationY="-6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/nav_people_frame"
+            app:layout_constraintStart_toStartOf="@+id/nav_people_frame" />
+
+        <TextView
+            android:id="@+id/nav_contacts_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:text="@string/nav_contacts_label"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="12sp"
+            android:translationY="-6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/nav_contacts_frame"
+            app:layout_constraintStart_toStartOf="@+id/nav_contacts_frame" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/navbarFadeOverlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0"
+        android:background="?attr/colorNavbarBG"
+        android:clickable="false"
+        android:elevation="200dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+  <path
+      android:name="bg"
+      android:pathData="M16,16m-15.4667,0a15.4667,15.4667 0,1 1,30.9334 0a15.4667,15.4667 0,1 1,-30.9334 0"
+      android:strokeWidth="1.06667"
+      android:fillColor="#242424"
+      android:strokeColor="#3C3C3C"/>
+  <path
+      android:name="tick"
+      android:strokeWidth="1"
+      android:pathData="M22,11.3953L13.75,20.1778L10,16.1857"
+      android:strokeLineJoin="round"
+      android:strokeColor="#383838"
+      android:strokeLineCap="round"
+      android:trimPathStart="1"/>
+</vector>

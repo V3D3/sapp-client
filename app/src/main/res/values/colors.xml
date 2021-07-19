@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#764AFF</color>
+    <color name="colorPrimaryDark">#B699FE</color>
+    <color name="colorPrimaryFaded">#ECE5FF</color>
+    <color name="colorPrimaryFadedDark">#1FFFFFFF</color>
+
+    <color name="colorBack">#FFFFFF</color>
+    <color name="colorBackDark">#121212</color>
+    <color name="colorMainBG">#F9F8FB</color>
+    <color name="colorMainBGDark">#121212</color>
+    <color name="fragLabel">#505050</color>
+    <color name="fragLabelDark">#DDFFFFFF</color>
+
+    <color name="colorSplash">#000000</color>
+    <color name="colorText">#000000</color>
+    <color name="colorTextDark">#FFFFFF</color>
+    <color name="colorControlHighlight">#10000000</color>
+    <color name="colorControlHighlightDark">#10FFFFFF</color>
+
+    <color name="colorNavbarBG">#FFFFFF</color>
+    <color name="colorNavbarBGDark">#1A1A1A</color>
+    <color name="colorNavbarInactiveIcon">#CDCDCD</color>
+    <color name="colorNavbarInactiveIconDark">#41FFFFFF</color>
+
+    <color name="colorTertiary">#707070</color>
+    <color name="colorTertiaryDark">#41FFFFFF</color>
+    <color name="colorSeperator">#ECE5FF</color>
+    <color name="colorSeperatorDark">#1EFFFFFF</color>
+
+    <color name="searchBG">#FFFFFF</color>
+    <color name="searchIcon">#ECE5FF</color>
+    <color name="searchHint">#CDCDCD</color>
+    <color name="searchText">#121212</color>
+    <color name="searchBGDark">#1E1E1E</color>
+    <color name="searchIconDark">#3D3C40</color>
+    <color name="searchHintDark">#6C6C6C</color>
+    <color name="searchTextDark">#FFFFFF</color>
+
+    <color name="homeProgressBarText">#564592</color>
+    <color name="homeProgressBarTextDark">#ACA3CB</color>
+    <color name="homeSubtext">#696969</color>
+    <color name="homeSubtextDark">#99FFFFFF</color>
+    <color name="homeDateText">#373737</color>
+    <color name="homeDateTextDark">#DDFFFFFF</color>
+    <color name="homeHamBG">#FFFFFF</color>
+    <color name="homeHamBGDark">#2E2E2E</color>
+    <color name="homeHamText">#696969</color>
+    <color name="homeHamTextDark">#DDFFFFFF</color>
+
+    <color name="taskCard">#FFFFFF</color>
+    <color name="taskCardDark">#1A1A1A</color>
+    <color name="taskCompleteText">#B4B4B4</color>
+    <color name="taskCompleteTextDark">#2B2B2B</color>
+    <color name="taskIncompleteText">#373737</color>
+    <color name="taskIncompleteTextDark">#DDFFFFFF</color>
+    <color name="taskTimeText">#828282</color>
+    <color name="taskTimeTextDark">#99FFFFFF</color>
+
+    <color name="categoryCard">#FFFFFF</color>
+    <color name="categoryCardDark">#171717</color>
+    <color name="categoryCardTaskText">#828282</color>
+    <color name="categoryCardTaskTextDark">#99FFFFFF</color>
+
+</resources>

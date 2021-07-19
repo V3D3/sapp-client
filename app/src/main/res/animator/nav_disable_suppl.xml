@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:propertyName="strokeColor"
+    android:duration="@integer/nav_anim_duration"
+    android:valueFrom="?attr/background"
+    android:valueTo="?attr/colorNavbarInactiveIcon"
+    android:valueType="colorType"/>
